@@ -9,8 +9,10 @@ class PageController extends Controller
     public function home()
     {
 
+        $changelogContent  = file_get_contents(public_path('changelog.txt'));
+        $changelogContent=explode("\n",$changelogContent);
 
-        return view("welcome");
+        return view("welcome",['changelogContent' => $changelogContent]);
 
     }
 }

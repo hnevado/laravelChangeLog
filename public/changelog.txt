@@ -1,4 +1,5 @@
-95cf28f - Hector Nevado, 0 seconds ago : Cambiada la ruta del fichero changelog, nombre de ruta y maquetación de welcome.blade.php
-3b5340f - Hector Nevado, 37 minutes ago : Añadido tailwindcss al proyecto y modificada la vista welcome
-2d910d8 - Hector Nevado, 43 minutes ago : Limpieza comentarios rutas
-e450d22 - Hector Nevado, 47 minutes ago : Creado hook de git y añadira ruta changelog para visualizarlo
+666833a - Hector Nevado, 1 second ago : Creación del controlador y cambio de ruta
+95cf28f - Hector Nevado, 5 minutes ago : Cambiada la ruta del fichero changelog, nombre de ruta y maquetación de welcome.blade.php
+3b5340f - Hector Nevado, 42 minutes ago : Añadido tailwindcss al proyecto y modificada la vista welcome
+2d910d8 - Hector Nevado, 48 minutes ago : Limpieza comentarios rutas
+e450d22 - Hector Nevado, 52 minutes ago : Creado hook de git y añadira ruta changelog para visualizarlo

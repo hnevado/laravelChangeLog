@@ -36,30 +36,23 @@
    </header>
 
    <main class="p-6">
-
    <div class="relative overflow-x-auto">
     <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
         <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
             <tr>
                 <th scope="col" class="px-6 py-3">
-                    Hash commit
-                </th>
-                <th scope="col" class="px-6 py-3">
-                    Cambio
+                    Commit
                 </th>
             </tr>
         </thead>
         <tbody>
+        @foreach ($changelogContent as $lineLogContent)
             <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
                 <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                  3b5340f 
+                  {{$lineLogContent}}
                 </th>
-                <td class="px-6 py-4">
-                  Añadido tailwindcss al proyecto y modificada la vista welcome
-                </td>
-             
             </tr>
-            
+            @endforeach
         </tbody>
     </table>
    </div>
