@@ -1,0 +1,2 @@
+2d910d8 - Hector Nevado, 0 seconds ago : Limpieza comentarios rutas
+e450d22 - Hector Nevado, 4 minutes ago : Creado hook de git y añadira ruta changelog para visualizarlo
