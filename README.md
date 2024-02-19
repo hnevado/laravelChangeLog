@@ -31,4 +31,4 @@ git log --pretty=format:"%h - %an, %ar : %s" > $CHANGELOG_FILE
 
 <p>Este script se puede personalizar como se quiera</p>
 
-<p><img src="https://github.com/hnevado/threads/blob/master/public/img/imagen1.png"></p>
+<p><img src="https://github.com/hnevado/laravelChangeLog/blob/master/public/img/captura.png"></p>
