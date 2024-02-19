@@ -8,4 +8,4 @@ Route::get('/', function () {
 
 Route::get('/changelog', function () {
     return response()->file(public_path('changelog.txt'));
-});
+})->name('changelog');

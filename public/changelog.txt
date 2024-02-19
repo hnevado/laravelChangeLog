@@ -1,0 +1,3 @@
+3b5340f - Hector Nevado, 0 seconds ago : Añadido tailwindcss al proyecto y modificada la vista welcome
+2d910d8 - Hector Nevado, 6 minutes ago : Limpieza comentarios rutas
+e450d22 - Hector Nevado, 10 minutes ago : Creado hook de git y añadira ruta changelog para visualizarlo
