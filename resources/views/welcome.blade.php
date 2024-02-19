@@ -25,10 +25,11 @@
                     Commits hasta el {{date("d-m-Y")}}
                 </div>
                 <div class="mt-2 flex items-center text-sm text-gray-500">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
-                        <path d="M17.5 6.5a.5.5 0 0 1 .5.5v11a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5h11zm-1 1h-9v10h9v-10zm-2.47 6.47a.75.75 0 0 0-1.06-1.06l-2.5 2.5a.75.75 0 0 0 1.06 1.06l2.5-2.5z"/>
-                    </svg>
-                    <a href="{{route('changelog')}}" target="_blank" rel="noopener noreferrer">Link fichero txt</a>
+                    
+                    <a href="{{route('changelog')}}" 
+                       target="_blank" 
+                       rel="noopener noreferrer"
+                       class="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center">Link fichero txt</a>
                 </div> 
             </div>
         </div>
