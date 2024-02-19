@@ -24,13 +24,15 @@
                     </svg>
                     Commits hasta el {{date("d-m-Y")}}
                 </div>
-                <div class="mt-2 flex items-center text-sm text-gray-500">
+                @if ($existe)
+                 <div class="mt-2 flex items-center text-sm text-gray-500">
                     
                     <a href="{{route('changelog')}}" 
                        target="_blank" 
                        rel="noopener noreferrer"
                        class="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center">Link fichero txt</a>
-                </div> 
+                 </div> 
+               @endif
             </div>
         </div>
      </div>

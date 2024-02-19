@@ -1,6 +1,0 @@
-6ba2eaf - Hector Nevado, 0 seconds ago : Cambio en el controlador y configuración de la vista
-666833a - Hector Nevado, 11 minutes ago : Creación del controlador y cambio de ruta
-95cf28f - Hector Nevado, 16 minutes ago : Cambiada la ruta del fichero changelog, nombre de ruta y maquetación de welcome.blade.php
-3b5340f - Hector Nevado, 53 minutes ago : Añadido tailwindcss al proyecto y modificada la vista welcome
-2d910d8 - Hector Nevado, 60 minutes ago : Limpieza comentarios rutas
-e450d22 - Hector Nevado, 63 minutes ago : Creado hook de git y añadira ruta changelog para visualizarlo
